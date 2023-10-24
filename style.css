@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cinzel', serif;
+}
+.navbar{
+    width: 100%;
+    background-color: lightsalmon;
+    padding: 20px;
+    position: fixed;
+}
+.container{
+    padding: 10px;
+    position: absolute;
+}
+.book-container{
+   padding: 20px;
+   width: 25%;
+   height: 250px;;
+   background-color: black;
+   border-radius: 10px;
+   color: aliceblue;
+   margin: 100px;
+   display: inline-block;
+   position: fixed;
+
+}
+.btn{
+    background-color: lightsalmon;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.add{
+    border-radius: 100%;
+    background-color: lightsalmon;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    border: none;
+    position: fixed;
+    font-size: 40px;
+
+}
+.pop-overlay{
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.pop-box{
+    height: 300px;
+    width: 300px;
+    background-color: lightsalmon;
+    position: absolute;
+    padding: 24px;
+    margin-left: 500px;
+    margin-top: 180px;
+    border-radius: 20px;
+    display: none;
+}
+#input-title{
+    background: transparent;
+    border-bottom: solid black 2px;
+    width: 250px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 10px;
+}
+#input-author{
+    background: transparent;
+    border-bottom: solid black 2px;
+    width: 250px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 10px;
+}
+#textarea{
+    background: transparent;
+    border-bottom: solid black 2px;
+    width: 250px;
+    margin: 10px;
+    height: 70px;
+}
+.add-btn{
+    background-color: black;
+    color: antiquewhite;
+    padding: 2px;
+    margin-left: 10px;
+}
+.cancel-btn{
+    background-color: black;
+    color: antiquewhite;
+    padding: 2px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+::placeholder{
+    color: black;
+}

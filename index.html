@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pinnotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="navbar">
+    <h1>Pinnotes - Favorite Read</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+        <h2 style="color: lightsalmon">Wings Of Fire</h2><br>
+        <h3>APJ Abdul Kalam</h3><br>
+        <p>To live only for some unknown future is superficial. It is like climbing a mountain to reach the peak without experiencing its sides. The sides of the mountain sustain life, not the peak. This is where things grow, experience is gained and technologies are mastered. The importance of the peak lies only in the fact that it defines the sides</p>
+       <br> <button onclick="deleteitem(event)" class="btn">Delete</button>
+    </div></div>
+    <div class="pop-overlay">
+        <div class="pop-box">
+            <form>
+                <h1>Add Yours Favorite</h1>
+                <input type="text" placeholder="Title" id="input-title"><br>
+                <input type="text" placeholder="Author Name" id="input-author"><br>
+                <input type="textarea" placeholder="Description" id="textarea"><br>
+                <button onclick="add(event)" class="add-btn">Add</button>
+                <button onclick="cancel(event)" class="cancel-btn">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <button class="add" onclick="add(event)">
+            +
+            </button>
+    <script src="script.js"></script>
+</body>
+</html>
